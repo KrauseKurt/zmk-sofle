@@ -92,11 +92,11 @@
 
         EXTRA {
             bindings = <
-&trans  &trans      &trans            &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans            &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans            &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans            &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans      &trans            &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans           &trans
+&kp PRINTSCREEN  &trans      &trans            &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp PRINTSCREEN  &trans
+&trans           &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans           &trans
+&trans           &trans      &trans            &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans           &trans
+&trans           &trans      &trans            &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
