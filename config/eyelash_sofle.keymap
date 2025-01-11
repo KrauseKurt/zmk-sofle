@@ -78,11 +78,11 @@
 
         ALT {
             bindings = <
-&kp GRAVE   &kp F1     &kp F2     &kp F3     &kp F4   &kp F5     &mmv MOVE_UP     &trans     &trans    &trans    &kp MINUS  &kp EQUAL         &kp DELETE
-&kp INSERT  &kp F6     &kp F7     &kp F8     &kp F9   &kp F10    &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &mkp MCLK  &mkp RCLK  &mkp LCLK  &kp F11  &kp F12    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans            &trans
-&trans      &trans     &trans     &trans     &trans   &trans     &mmv MOVE_RIGHT  &trans     &trans    &trans    &trans     &trans            &trans
-&kp C_MUTE  &trans     &trans     &trans     &trans   &trans     &mkp LCLK        &trans     &trans    &trans    &trans     &trans
+&kp GRAVE   &kp F1     &kp F2     &kp F3     &kp F4   &kp F5     &mmv MOVE_UP     &trans         &trans    &trans    &kp MINUS  &kp EQUAL         &kp DELETE
+&kp INSERT  &kp F6     &kp F7     &kp F8     &kp F9   &kp F10    &mmv MOVE_DOWN   &kp PG_UP      &kp HOME  &kp UP    &kp END    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &mkp MCLK  &mkp RCLK  &mkp LCLK  &kp F11  &kp F12    &mmv MOVE_LEFT   &kp PG_DN      &kp LEFT  &kp DOWN  &kp RIGHT  &trans            &trans
+&trans      &trans     &trans     &trans     &trans   &trans     &mmv MOVE_RIGHT  &trans         &trans    &trans    &trans     &trans            &trans
+&kp C_MUTE  &trans     &trans     &trans     &trans   &trans     &mkp LCLK        &kp BACKSPACE  &trans    &trans    &trans     &trans
             >;
 
             display-name = "ALT";
