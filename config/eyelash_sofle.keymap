@@ -65,11 +65,11 @@
 
         WOW {
             bindings = <
-&trans  &kp LBKT  &kp RIGHT_BRACKET  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans             &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans             &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans             &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans             &trans  &trans  &trans    &trans  &trans  &trans  &trans  &to 0   &trans
+&trans  &kp LBKT  &kp RIGHT_BRACKET  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans             &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans             &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans             &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_WIN
+&trans  &trans    &kp LALT           &kp LALT  &trans  &trans    &trans  &trans  &trans  &trans  &to 0   &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
