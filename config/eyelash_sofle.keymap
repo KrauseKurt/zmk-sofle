@@ -5,8 +5,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 
 /*
 
@@ -65,11 +63,11 @@
 
         WOW {
             bindings = <
-&trans  &kp LBKT  &kp RIGHT_BRACKET  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans             &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans             &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans             &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_WIN
-&trans  &trans    &kp LALT           &kp LALT  &trans  &trans    &trans  &trans  &trans  &trans  &to 0   &trans
+&mt ESC GRAVE  &kp LBKT  &kp RIGHT_BRACKET  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans    &trans             &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans    &trans             &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans    &trans             &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_WIN
+&trans         &trans    &kp LALT           &kp LALT  &trans  &trans    &trans  &trans  &trans  &trans  &to 0   &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
