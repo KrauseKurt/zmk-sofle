@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_sofle}
 layers:
   MAIN:
   - {t: '$$mdi:keyboard-esc$$', h: '`'}
@@ -65,7 +66,7 @@ layers:
   - {t: WOW, h: toggle}
   - CONFIG
   WOW:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
