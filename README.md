@@ -1,2 +1,2 @@
-<img src="keymap-drawer/sofle.svg" >
+<img src="photos/0.png" >
 
