@@ -53,7 +53,7 @@
 &mt GRAVE ESC  &kp N1  &kp N2        &kp N3        &kp N4     &kp N5    &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9   &kp N0    &kp BACKSPACE
 &kp TAB        &kp Q   &kp W         &kp E         &kp R      &kp T     &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O    &kp P     &kp BSLH
 &kp LCTRL      &kp A   &kp S         &kp D         &kp F      &kp G     &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LSHFT      &kp Z   &kp X         &kp C         &kp V      &kp B     &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
+&kp LSHFT      &kp Z   &kp X         &kp C         &kp V      &kp B     &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mo 5
 &kp C_MUTE     &mo 3   &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE  &mo 2     &kp ENTER        &kp ENTER  &kp SPACE  &mkp LCLK  &to 1    &mo 4
             >;
 
@@ -77,7 +77,7 @@
 
         ALT {
             bindings = <
-&kp GRAVE   &kp F1     &kp F2     &kp F3     &kp F4   &kp F5     &mmv MOVE_UP     &trans         &trans    &trans    &kp MINUS  &kp EQUAL         &kp DELETE
+&kp ESC     &kp F1     &kp F2     &kp F3     &kp F4   &kp F5     &mmv MOVE_UP     &trans         &trans    &trans    &kp MINUS  &kp EQUAL         &kp DELETE
 &kp INSERT  &kp F6     &kp F7     &kp F8     &kp F9   &kp F10    &mmv MOVE_DOWN   &kp PG_UP      &kp HOME  &kp UP    &kp END    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &mkp MCLK  &mkp RCLK  &mkp LCLK  &kp F11  &kp F12    &mmv MOVE_LEFT   &kp PG_DN      &kp LEFT  &kp DOWN  &kp RIGHT  &trans            &trans
 &trans      &trans     &trans     &trans     &trans   &trans     &mmv MOVE_RIGHT  &trans         &trans    &trans    &trans     &trans            &trans
@@ -113,6 +113,19 @@
 
             sensor-bindings = <&scroll_encoder>;
             label = "CONFIG";
+        };
+
+        FELLOWSHIP {
+            label = "FELLOWSHIP";
+            bindings = <
+&kp GRAVE  &trans  &trans    &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans    &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans    &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans  &trans    &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_WIN
+&trans     &trans  &kp LALT  &kp LALT  &trans  &trans    &trans  &trans  &trans  &trans  &to 0   &trans
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
